@@ -58,7 +58,7 @@ def execute_promo_code(device):
         print("広告ポップアップを閉じる")
 
     # 現在のページを印刷
-    print(device.dump_hierarchy())
+    # print(device.dump_hierarchy()) # For Debug
     
     time.sleep(10)
 
